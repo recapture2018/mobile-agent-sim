@@ -13,7 +13,7 @@ Suppose that the robots are equipped with cameras to help them observe their sur
 
 ![Sensor network of robots](img/sensingGraphSim.png?raw=true "The sensing graph of the network of robots")
 
-Here, a robot will adjust its position based on how the robots it sees are moving. The choice of a directed graph in this case is advantageous by providing freedom that any two robots do not necessarily need to see each other as in the undirected case.
+Here, a robot will adjust its position based on how the robots it sees are moving. The direction that sight (information) flows is that the robot on the terminal end of the directed edge is seeing the robot from which the tail is coming from. The choice of a directed graph in this case is advantageous by providing freedom that any two robots do not necessarily need to see each other as in the undirected case.
 
 As shown in Zhiyun Lin's 2016 paper, this problem can be posed using a complex graph Laplacian approach. Using the complex plane as our global reference frame allows for some simplifications due to the rectangular form of a complex number. Unlike the real case where the eigenvalues of the dynamical system x' = -Lx are guaranteed to be distributed in the left-half complex plane (where x is the aggregate state vector of the n agents, and L is the Laplacian of the sensing graph), systems involving a complex Laplacian can have their eigenvalues distributed all throughout the complex plane:
 
