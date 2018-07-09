@@ -1,5 +1,5 @@
 # LinSimulation
-A coordinate-free simulation of shape and formation control of mobile agents in the complex plane building upon work from Z. Lin (2016).
+A coordinate-free simulation of shape and formation control of mobile agents in the complex plane building upon work from Z. Lin et al (2016). All code is original and was reverse-engineered from the original papers by Zhiyun Lin et al.
 
 These MATLAB scripts used in tandem can help determine the path of a group of mobile robots each must take to obtain a specific formation without regard to any common coordinate system. For example, we may have the following arrangement of robots as seen here:
 
