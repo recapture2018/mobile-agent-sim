@@ -1,4 +1,4 @@
-# Mobile Agent Simulation
+# Mobile Agent Simulator
 A coordinate-free simulation of shape and formation control of mobile agents in the complex plane building upon work from [Z. Lin et al (2016)](https://ieeexplore.ieee.org/document/7153547/). All code is original and was reverse-engineered from the original papers by Zhiyun Lin et al.
 
 <p align="center">
