@@ -53,3 +53,12 @@ By solving the dynamical system, we can determine the agents must take the follo
 
 In this case, the agents must move very far and very quickly to reach their desired formation (the graph has been zoomed out to demonstrate the formation shape). See the animated GIF at the top of the README for the animation from a similar example.
 The MATLAB code has been generalized a fair amount to allow for any number of agents, and initial conditions for the system chosen to obtain the solution in a reasonable amount of time.
+
+# Potential Real-World Applications
+<p align="center">
+  <img src="https://media.defense.gov/2018/Jul/12/2001941709/1088/820/0/180705-F-YM354-0445.JPG" />
+  <br>
+  <em>A group of Intel Drones flying in formation to create a 4th of July show in lieu of a fireworks display. Reused under CC.</em>
+</p>
+
+A novel application that this method could be used in would be 4th of July celebrations where using fireworks is dangerous or simply not possible.
