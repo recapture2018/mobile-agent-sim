@@ -2,7 +2,7 @@
 A coordinate-free simulation of shape and formation control of mobile agents in the complex plane building upon work from [Z. Lin et al (2016)](https://ieeexplore.ieee.org/document/7153547/). All code is original and was reverse-engineered from the original papers by Zhiyun Lin et al.
 
 <p align="center">
-<img src="img/simul.gif"/>
+<img src="img/simul2.gif"/>
 <br>
 <em>An animated example of the paths the mobile robots will take relative to each other to achieve the formation. Note the velocity decreasing towards the end.</em>
 </p>
