@@ -22,7 +22,7 @@ Perhaps we want the robots to move into a desired formation (so as to avoid some
 Suppose that the robots are equipped with cameras to help them observe their surroundings. To create a decentralized network to obtain the desired formation shape, we create a sensing network (or sensing graph) that explains the flow of information between each of the robots in the network (in this case, the information flowing in the network for any robot is the visual sight of another robot). 
 
 <p align="center">
-  <img src="img/sensingGraphSim.png" />
+ <img src="img/sensingGraphSim.png" />
 </p>
 
 Here, a robot will adjust its position based on how the robots it sees are moving. The direction that sight (information) flows is that the robot on the terminal end of the directed edge is seeing the robot from which the tail is coming from. The choice of a directed graph in this case is advantageous by providing freedom that any two robots do not necessarily need to see each other as in the undirected case.
